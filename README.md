@@ -4,5 +4,5 @@ All JQuery Libraries used are pushed to repository.
 
 All assests(including images and icons) are attached with the pushed code.
 
-Enjoy my first wacky snippets of code I've ever wrote.
+Enjoy my first ever wacky snippets of code I've wrote.
 
