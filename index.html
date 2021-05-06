@@ -1,0 +1,639 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+  <!-- CSS Files -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./css/css.css">
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/bootnavbar.css" rel="stylesheet">
+
+
+    <title>FSTT Clubs</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" id="main_navbar">
+        <span id="logo"></span>
+        <a class="navbar-brand" href="#">FSTT Clubs</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Catégories
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li class="nav-item dropdown">
+                          <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown"
+                          aria-haspopup="true" aria-expanded="false">
+                          Entrepreneuriat 
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                            <li><a class="dropdown-item" href="#one2" id="btnClick2">Enactus</a></li>
+                         </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown"
+                          aria-haspopup="true" aria-expanded="false">
+                          Environment
+                          </a>
+                          <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                            <li><a class="dropdown-item" href="#one1" id="btnClick">Greenology</a></li>
+                         </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                                <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">
+                                    Sport
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                                    <li><a class="dropdown-item" href="#one12" id="btnClick1">Échecs</a></li>
+                                </ul>
+                            </li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="form-inline my-2 my-lg-0">
+                    <datalist id="data">
+                            <option value="GREENOLOGY"></option>
+                            <option value="ENACTUS"></option>
+                            <option value="ÉCHECS"></option>
+                    </datalist>
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" list="data" id="search-criteria">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="button" id="search">Search</button>
+                  </div>
+        </div>
+    </nav>
+    <section id="intro">
+          <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+    
+            <ol class="carousel-indicators"></ol>
+    
+            <div class="carousel-inner" role="listbox">
+    
+              <div class="carousel-item active">
+                <div class="carousel-background"><img src="img/encour3.jpg" alt=""></div>
+                <div class="carousel-container">
+                  <div class="carousel-content">
+                    <h2>Club Chess</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="carousel-background"><img src="img/encour2.jpg" alt=""></div>
+                <div class="carousel-container">
+                  <div class="carousel-content">
+                    <h2>Club Greenology</h2>
+                    <p>Le Club de l’environnement de la FST de Tanger, Dénommé Greenology Club, est nouvellement créé et il a comme vocation de transmettre aux étudiants, une conscience nationale éclairée, un patriotisme activé pour un environnement préservé.</p>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="carousel-item">
+                <div class="carousel-background"><img src="img/encour1.jpg" alt=""></div>
+                <div class="carousel-container">
+                  <div class="carousel-content">
+                    <h2>Club Enactus</h2>
+                    <p>Enactus est une communauté d'étudiants de l'Université Abdelmalek Essaâdi de Tanger, et de leaders du monde académique et économique qui s'engage à utiliser l'entrepreneuriat pour améliorer les vies et façonner un monde meilleur et durable.</p>
+                  </div>
+                </div>
+              </div>
+    
+            </div>
+    
+            <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+    
+            <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+              <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+      </section>
+
+      <div class="wrapper" id="1">
+          <div id="one" class="text-center clearfix"></div>
+          <div id="two"></div>
+      </div>
+      <div class="wrapper contact-name" id="2" style="display:none;">
+          <div id="one1" class="text-center clearfix">
+                  <div class="main">
+                    <section id="sec"><a href="javascript:void(0)" id="closebtn">✘</a>GREENOLOGY<span style="display: none;">greenology</span>
+                      <button id="show1">No Waste <span id="sp"></span></button>
+                      <button id="show2">Plantation<span id="sp"></span></button>
+                      <button id="show3">Intégration<span id="sp"></span></button>
+                    </section>
+                    
+                  </div>
+
+          </div>
+          <div class="right">  
+              <div id="two">
+                  <button class="btn btn-dark btn-circle0 btn-sm but">➤</button>
+                  <button class="btn btn-dark btn-circle btn-sm but1">▼</button>
+                  <a href="javascript:void(0)" class="btn btn-dark btn-circle1 btn-sm but2">▲</a>
+              </div>
+              <div id="three" style="display:none;">
+                <button class="btn btn-dark btn-circle0 btn-sm but">➤</button>
+                <button class="btn btn-dark btn-circle btn-sm but1">▼</button>
+                <a href="javascript:void(0)" class="btn btn-dark btn-circle1 btn-sm but2">▲</a>
+                <div class="container">
+                  <h2 align="center">No Waste - Programme De La Semaine</h2>
+                  <P class="pargh">Dans le cadre d'un événement " No Waste Lunches " qui se déroulera pendant deux semaines à partir du 10 décembre 2019, certaines visites seront organisées par les membres du Greenology Club afin de participer à la réduction des déchets dans certains endroits selon Le Planning ci-desseus :</P>
+                  <table class="table table-bordered days-of-week" start="1" end="7">
+                      <thead>
+                      <tr>
+                          <th>Lundi</th>
+                          <th>Mardi</th>
+                          <th>Mercredi</th>
+                          <th>Jeudi</th>
+                          <th>Vendredi</th>
+                          <th>Samedi</th>
+                          <th>Dimanche</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                          <td>Non-alloué</td>
+                          <td id="myBtn" class="few">Collection de déchets à la foret de Rmillat 12:00-16:00</td>
+                          <td>Non-alloué</td>
+                          <td id="myBtn2" class="few">Discussion Des Plans 12:00-14:00</td>
+                          <td id="myBtn3" class="few">Collection de déchets à FSTT 12:00-16:00</td>
+                          <td>Non-alloué</td>
+                          <td>Non-alloué</td> 
+                      </tbody>
+                  </table>
+                  <div id="dv1" style="display: none;">
+                      <p class="cor">Coordonnateur : El kellouti Salim</p>
+                      <img class="img1" src="img/dechet11.jpg">
+                      <img class="img2" src="img/dechet7.jpg">
+                      <img class="img3" src="img/dechet12.jpg">
+                  </div>
+                  <div id="dv11" style="display: none;">
+                      <p class="cor">Coordonnateur : El kellouti Salim</p>
+                      <img class="img1" src="img/Discussion3.jpg">
+                      <img class="img2" src="img/Discussion5.jpg">
+                      <img class="img3" src="img/Discussion4.jpg">
+                  </div>
+                  <div id="dv12" style="display: none;">
+                      <p class="cor">Coordonnateur : El kellouti Salim</p>
+                      <img class="img1" src="img/dechet9.jpg">
+                      <img class="img2" src="img/dechet5.jpg">
+                      <img class="img3" src="img/dechet10.jpg">
+
+                  </div>
+              </div>
+              </div>
+              <div id="four" style="display:none;">
+                <button class="btn btn-dark btn-circle0 btn-sm but">➤</button>
+                <button class="btn btn-dark btn-circle btn-sm but1">▼</button>
+                <a href="javascript:void(0)" class="btn btn-dark btn-circle1 btn-sm but2">▲</a>
+                <div class="container">
+                  <h2 align="center">Plantation - Programme De La Semaine</h2>
+                  <P class="pargh">Dans le cadre d'un événement qui se déroulera pendant une semaine à partir du 18 décembre 2019, certaines une visite sera organisée par les membres du Greenology Club afin de participer à la Plantation des Arbres dans certains endroits Y compris l'FSTT selon Le Planning ci-desseus :</P>
+                  <table class="table table-bordered days-of-week" start="1" end="7">
+                      <thead>
+                        <tr>
+                          <th>Lundi</th>
+                          <th>Mardi</th>
+                          <th>Mercredi</th>
+                          <th>Jeudi</th>
+                          <th>Vendredi</th>
+                          <th>Samedi</th>
+                          <th>Dimanche</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                          <td>Non-alloué</td>
+                          <td>Non-alloué</td>
+                          <td id="myBtn4" class="few">Planter des Arbres à Rmilat 12:00-16:00</td>
+                          <td>Non-alloué</td>
+                          <td>Non-alloué</td>
+                          <td id="myBtn5" class="few">Planter des Arbres à FSTT 12:00-16:00</td>
+                          <td>Non-alloué</td>
+                      </tr>
+                     </tbody>
+                  </table>
+                  <div id="dv" style="display: none;">
+                      <p class="cor">Coordonnateur : El kellouti Salim</p>
+                      <img class="img1" src="img/Plantation8.jpg">
+                      <img class="img2" src="img/Plantation3.jpg">
+                      <img class="img3" src="img/Plantation2.jpg">
+                  </div>
+                  <div id="dv01" style="display: none;">
+                      <p class="cor">Coordonnateur : El kellouti Salim</p>
+                      <img class="img1" src="img/Plantation4.jpg">
+                      <img class="img2" src="img/Plantation5.jpg">
+                      <img class="img3" src="img/Plantation7.jpg">
+                  </div>
+              </div>
+              </div>
+              <div id="five" style="display:none;">
+                <button class="btn btn-dark btn-circle0 btn-sm but">➤</button>
+                <button class="btn btn-dark btn-circle btn-sm but1">▼</button>
+                <a href="javascript:void(0)" class="btn btn-dark btn-circle1 btn-sm but2">▲</a>
+                <div class="container">
+                  <h2 align="center">Intégration - Programme De La Semaine</h2>
+                  <P class="pargh">À partir du 23 décembre, le FSTT Greenology Club attribuera certains jours de la semaine pour recruter de nouveaux membres et les familiariser avec l'atmosphère de travail, selon Le Planning ci-desseus :</P>
+                  <table class="table table-bordered days-of-week" start="1" end="7">
+                      <thead>
+                        <tr>
+                          <th>Lundi</th>
+                          <th>Mardi</th>
+                          <th>Mercredi</th>
+                          <th>Jeudi</th>
+                          <th>Vendredi</th>
+                          <th>Samedi</th>
+                          <th>Dimanche</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                          <td id="myBtn6" class="few">Recrutement de nouveaux membres 12:00-16:00</td>
+                          <td>Non-alloué</td>
+                          <td>Non-alloué</td>
+                          <td>Non-alloué</td>
+                          <td>Non-alloué</td>
+                          <td id="myBtn7" class="few">Explorer le monde du travail 12:00-14:00</td>
+                          <td>Non-alloué</td>
+                      </tr>
+                      </tbody>
+                  </table>
+                  <div id="dv4" style="display: none;">
+                      <p class="cor">Coordonnateur : El kellouti Salim</p>
+                      <img class="img1" src="img/integ4.jpg">
+                      <img class="img2" src="img/integ1.jpg">
+                      <img class="img3" src="img/integ3.jpg">
+                  </div>
+                  <div id="dv41" style="display: none;">
+                      <p class="cor">Coordonnateur : El kellouti Salim</p>
+                      <img class="img1" src="img/integ7.jpg">
+                      <img class="img2" src="img/integ2.jpg">
+                      <img class="img3" src="img/integ8.jpg">
+                  </div>
+              </div>
+           </div>
+      </div>
+    </div>
+
+
+      <div class="wrapper contact-name" id="3" style="display:none;">
+          <div id="one12" class="text-center clearfix">
+              <section id="sec1"><a href="javascript:void(0)" id="closebtn1">✘</a>ÉCHECS<span style="display: none;">échecs</span>
+                  <button id="show4">Puzzles<span id="sp"></span></button>
+                  <button id="show5">Matchs<span id="sp"></span></button>
+                </section>
+            </div>
+          <div class="right">
+              <div id="two">
+                  <button class="btn btn-dark btn-circle0 btn-sm but">➤</button>
+                  <button class="btn btn-dark btn-circle btn-sm but1">▼</button>
+                  <a href="javascript:void(0)" class="btn btn-dark btn-circle1 btn-sm but2">▲</a>
+              </div>
+              <div id="six" style="display:none;">
+                  <button class="btn btn-dark btn-circle0 btn-sm but">➤</button>
+                  <button class="btn btn-dark btn-circle btn-sm but1">▼</button>
+                  <a href="javascript:void(0)" class="btn btn-dark btn-circle1 btn-sm but2">▲</a>
+                  <div class="container">
+                    <h2 align="center">Puzzles - Programme De La Semaine</h2>
+                    <P class="pargh">Dans le cadre d'un événement qui se déroulera pendant deux semaines à partir du 10 décembre 2019, certaines visites seront organisées par les membres du Greenology Club afin de participer à la réduction des déchets dans certains endroits selon Le Planning ci-desseus :</P>
+                    <table class="table table-bordered days-of-week" start="1" end="7">
+                        <thead>
+                        <tr>
+                            <th>Lundi</th>
+                            <th>Mardi</th>
+                            <th>Mercredi</th>
+                            <th>Jeudi</th>
+                            <th>Vendredi</th>
+                            <th>Samedi</th>
+                            <th>Dimanche</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Non-alloué</td>
+                            <td class="myBtn8 few">La visite du foret de Rmillat 12:00-14:00</td>
+                            <td>Non-alloué</td>
+                            <td class="myBtn8 few"> Discussion Des Plans 12:00-14:00</td>
+                            <td>Non-alloué</td>
+                            <td>Non-alloué</td>
+                            <td>Non-alloué</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <div id="dv5" style="display: none;">
+                      <p class="cor">Coordonnateur : El kellouti Salim</p>
+                      <img class="img1" src="img/Puzzle1.jpg">
+                      <img class="img2" src="img/Puzzle2.jpg">
+                      <img class="img3" src="img/Puzzle3.jpg">
+                  </div>
+                  </div>
+              </div>
+              <div id="seven" style="display:none;">
+                  <button class="btn btn-dark btn-circle0 btn-sm but">➤</button>
+                  <button class="btn btn-dark btn-circle btn-sm but1">▼</button>
+                  <a href="javascript:void(0)" class="btn btn-dark btn-circle1 btn-sm but2">▲</a>
+                  <div class="container">
+                    <h2 align="center">Matchs - Programme De La Semaine</h2>
+                    <P class="pargh">Dans le cadre d'un tournoi qui se déroulera pendant deux semaines à partir du 10 décembre 2019, les membres du club d'échecs se feront face pour un prix intitulé pour le gagnant, selon Le Planning ci-desseus :</P>
+                    <table class="table table-bordered days-of-week" start="1" end="7">
+                        <thead>
+                        <tr>
+                            <th>Lundi</th>
+                            <th>Mardi</th>
+                            <th>Mercredi</th>
+                            <th>Jeudi</th>
+                            <th>Vendredi</th>
+                            <th>Samedi</th>
+                            <th>Dimanche</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>Non-alloué</td>
+                            <td class="myBtn10 few">Jeux d'échecs (tournoi) 14:00-18:00</td>
+                            <td>Non-alloué</td>
+                            <td class="myBtn10 few">Jeux d'échecs (tournoi) 14:00-18:00</td>
+                            <td>Non-alloué</td>
+                            <td class="myBtn10 few">Jeux d'échecs (tournoi) 14:00-18:00</td>
+                            <td>Non-alloué</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <div id="dv3" style="display: none;">
+                        <p class="cor">Coordonnateur : El kellouti Salim</p>
+                        <img class="img1" src="img/chess4.jpg">
+                        <img class="img2" src="img/chess5.jpg">
+                        <img class="img3" src="img/chess6.jpg">
+                    </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="wrapper contact-name" id="4" style="display:none;">
+        <div id="one2" class="text-center clearfix">
+            <section id="sec2"><a href="javascript:void(0)" id="closebtn2">✘</a>ENACTUS<span style="display: none;">enactus</span>
+                <button id="show7">Réunions<span id="sp"></span></button>
+              </section>
+          </div>
+        <div class="right">
+            <div id="two">
+                <button class="btn btn-dark btn-circle0 btn-sm but">➤</button>
+                <button class="btn btn-dark btn-circle btn-sm but1">▼</button>
+                <a href="javascript:void(0)" class="btn btn-dark btn-circle1 btn-sm but2">▲</a>
+            </div>
+            <div id="nine" style="display:none;">
+                <button class="btn btn-dark btn-circle0 btn-sm but">➤</button>
+                <button class="btn btn-dark btn-circle btn-sm but1">▼</button>
+                <a href="javascript:void(0)" class="btn btn-dark btn-circle1 btn-sm but2">▲</a>
+                <div class="container">
+                  <h2 align="center">Réunions - Programme De La Semaine</h2>
+                  <P class="pargh">Dans le cadre d'un événement "Students As Entrepreneurs" qui se déroulera pendant une semaine à partir du 22 décembre 2019, certaines séances seront organisées par les membres du Club d'Enactus pour acquérir les compétences de base d'un entrepreneur prospère, selon Le Planning ci-desseus :</P>
+                  <table class="table table-bordered days-of-week" start="1" end="7">
+                      <thead>
+                      <tr>
+                          <th>Lundi</th>
+                          <th>Mardi</th>
+                          <th>Mercredi</th>
+                          <th>Jeudi</th>
+                          <th>Vendredi</th>
+                          <th>Samedi</th>
+                          <th>Dimanche</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                          <td id="myBtn13" class="few">Séances d’orientation individuelle 12:00-14:00</td>
+                          <td>Non-alloué</td>
+                          <td>Non-alloué</td>
+                          <td id="myBtn14" class="few">Gestion des émotions et stress 12:00-14:00</td>
+                          <td>Non-alloué</td>
+                          <td id="myBtn15" class="few">Gestion du temps et compétences organisationnelles 14:00-16:00</td>
+                          <td>Non-alloué</td>
+                      </tr>
+                      </tbody>
+                  </table>
+                  <div id="dv2" style="display: none;">
+                      <p class="cor">Coordonnateur : El kellouti Salim</p>
+                      <img class="img1" src="img/Enactus1.jpg">
+                      <img class="img2" src="img/Enactus3.jpg">
+                      <img class="img3" src="img/Enactus2.jpg">
+                  </div>
+                  <div id="dv21" style="display: none;">
+                      <p class="cor">Coordonnateur : El kellouti Salim</p>
+                      <img class="img1" src="img/Enactus4.jpg">
+                      <img class="img2" src="img/Enactus6.jpg">
+                      <img class="img3" src="img/Enactus2.jpg">
+                  </div>
+                  <div id="dv22" style="display: none;">
+                      <p class="cor">Coordonnateur : El kellouti Salim</p>
+                      <img class="img1" src="img/Enactus7.jpg">
+                      <img class="img2" src="img/Enactus2.jpg">
+                      <img class="img3" src="img/Enactus5.jpg">
+                  </div>
+              </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+      <footer id="foot" class="page-footer font-small">
+      <div class="footer-copyright text-center py-3">© 2019 Copyright:
+      <a href=""> El Kellouti Salim</a>
+      </div>
+    </footer>
+
+
+
+
+          
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/superfish/hoverIntent.js"></script>
+  <script src="lib/superfish/superfish.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+  <script src="lib/touchSwipe/jquery.touchSwipe.min.js"></script>
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+  <script src="./js/weekschedule.js"></script>
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="js/bootnavbar.js" ></script>
+
+    <script>
+        $(function () {
+            $('#main_navbar').bootnavbar();
+        })
+        
+        $('#btnClick').on('click',function(){
+          $('#2').fadeIn(1000).siblings('div').hide();
+        });
+        $('#btnClick1').on('click',function(){
+          $('#3').fadeIn(1000).siblings('div').hide();
+        });
+
+        $('#btnClick2').on('click',function(){
+          $('#4').fadeIn(1000).siblings('div').hide();
+        });
+
+        $('#show1').on('click',function(){
+          $('#three').fadeIn(1000).siblings('div').hide();
+        });
+
+        $('#show2').on('click',function(){
+          $('#four').fadeIn(1000).siblings('div').hide();
+        });
+
+        $('#show3').on('click',function(){
+          $('#five').fadeIn(1000).siblings('div').hide();
+        });
+
+        $('#show4').on('click',function(){
+          $('#six').fadeIn(1000).siblings('div').hide();
+        });
+
+        $('#show5').on('click',function(){
+          $('#seven').fadeIn(1000).siblings('div').hide();
+        });
+        
+        $('#show6').on('click',function(){
+          $('#eight').fadeIn(1000).siblings('div').hide();
+        });
+
+        $('#show7').on('click',function(){
+          $('#nine').fadeIn(1000).siblings('div').hide();
+        });
+
+        $("#search").click(function() {
+        $(".contact-name").hide();
+        var txt = $("#search-criteria").val();
+        $('.contact-name:contains("' +txt+ '")').fadeIn(1000).siblings('div').hide();
+        });
+
+        $('#closebtn').click(function(){
+        $('#one1').width('0');
+        $('#sec').css({'visibility' : 'hidden'});
+        });
+
+        $('.but').click(function(){
+        $('#one1').css({'width': '25%'});
+        $('#sec').css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1}, 4000);
+        });
+
+        $('#closebtn1').click(function(){
+        $('#one12').width('0');
+        $('#sec1').css({'visibility' : 'hidden'});
+        });
+
+        $('.but').click(function(){
+        $('#one12').css({'width': '25%'});
+        $('#sec1').css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1}, 4000);
+        });
+
+        $('#closebtn2').click(function(){
+        $('#one2').width('0');
+        $('#sec2').css({'visibility' : 'hidden'});
+        });
+
+        $('.but').click(function(){
+        $('#one2').css({'width': '25%'});
+        $('#sec2').css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1}, 4000);
+        });
+        
+        $('.but2').click(function(){
+        $('#intro').hide('slow');
+        });
+
+        $('.but1').click(function(){
+        $('#intro').show('slow');
+        });
+
+        $('#myBtn4').on('click',function(){
+          $('#dv').fadeIn(1000).siblings('div').hide();
+        });
+
+        $('#myBtn5').on('click',function(){
+          $('#dv01').fadeIn(1000).siblings('div').hide();
+        });
+
+        $('#myBtn').on('click',function(){
+          $('#dv1').fadeIn(1000).siblings('div').hide();
+        });
+
+        $('#myBtn2').on('click',function(){
+          $('#dv11').fadeIn(1000).siblings('div').hide();
+        });
+
+        $('#myBtn3').on('click',function(){
+          $('#dv12').fadeIn(1000).siblings('div').hide();
+        });
+
+        $('#myBtn13').on('click',function(){
+          $('#dv2').fadeIn(1000).siblings('div').hide();
+        });
+
+        $('#myBtn14').on('click',function(){
+          $('#dv21').fadeIn(1000).siblings('div').hide();
+        });
+
+        $('#myBtn15').on('click',function(){
+          $('#dv22').fadeIn(1000).siblings('div').hide();
+        });
+
+        $('.myBtn10').on('click',function(){
+          $('#dv3').fadeIn(1000).siblings('div').hide();
+        });
+
+        $('#myBtn6').on('click',function(){
+          $('#dv4').fadeIn(1000).siblings('div').hide();
+        });
+
+        $('#myBtn7').on('click',function(){
+          $('#dv41').fadeIn(1000).siblings('div').hide();
+        });
+
+        $('.myBtn8').on('click',function(){
+          $('#dv5').fadeIn(1000).siblings('div').hide();
+        });
+    </script>
+</body>
+
+</html>
