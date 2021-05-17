@@ -1,4 +1,4 @@
-A presentational one-page application for our university clubs coded with Html/Css/JQuery.
+A presentational one-page application for our university clubs coded with Html/Css(Bootstrap)/JQuery.
 
 All JQuery Libraries used are pushed to repository.
 
